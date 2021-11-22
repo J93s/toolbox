@@ -3,7 +3,7 @@ import seaborn as sns
 
 
 def correlation_diagram(data):
-    """converts a pandas dataframe into a correlation diagram"""
+    """converts a pandas dataframe into a correlation diagram currently Y1GnBu colours"""
     corr = data.corr()
     sns.heatmap(corr,
                 xticklabels=corr.columns,
